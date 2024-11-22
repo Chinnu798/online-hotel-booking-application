@@ -1,0 +1,128 @@
+.register {
+  flex: 1;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+.bg-image {
+  background-image: url('../images/background-image.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.glass{
+  background: rgba(255, 255, 255, .25);
+  border-radius: 15px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(7px);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+}
+input::placeholder,textarea::placeholder {
+  color: black; /* Change this color as needed */
+  opacity: 1; /* Override the default opacity */
+}
+.register-container {
+  width: 100%;
+  max-width: 600px;
+  border: 1px solid black;
+  padding: 20px;
+  border-radius: 10px;
+}
+.register-logo img {
+  width: 150px;
+  margin-bottom: 1rem;
+}
+.register-center {
+  text-align: center;
+}
+
+.register-center h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.flex-inputs {
+  display: flex;
+}
+
+.column select{
+  height: 38px;
+  font-size: x-small;
+  margin-bottom: 16px;
+  padding: 0px 5px;
+}
+
+.column {
+  flex: 1;
+  margin-right: 1rem;
+}
+.column input{
+  background: transparent;
+}
+
+.column:last-child {
+  margin-right: 0;
+}
+
+input,
+select, textarea {
+  width: 100%;
+  border: 1px solid;
+  border-radius: 4px;
+  background:transparent ;
+}
+.signup-pass-input-div{
+  position: relative;
+}
+
+.signup-pass-input-div svg{
+  font-size: 15px;
+  position: absolute;
+  bottom: 16px;
+  left: 530px;
+  cursor: pointer;
+  outline: none;
+}
+.column label{
+  color: black;
+  display: flex;
+  justify-content: start;
+}
+.input-div input, input, textarea{
+  font-size: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  background: transparent;
+}
+
+.register-input-div input, .signup-pass-input-div input{
+  background: transparent;
+}
+
+.register-center-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+
+.register-center-buttons button {
+  padding: 0.75rem 1.5rem;
+  background-color: orange;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.register-center-buttons button:hover {
+  background-color: green;
+}
+
+.error {
+  color: red;
+  margin-bottom: 5px;
+  font-size: 0.9em;
+}

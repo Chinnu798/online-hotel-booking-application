@@ -1,0 +1,32 @@
+.btn-custom {
+    display: inline-block;
+    outline: 0;
+    text-align: center;
+    cursor: pointer;
+    padding: 17px 30px;
+    border: 2px solid transparent;
+    border-color: #000;
+    color: #000;
+    background: transparent;
+    font-weight: 800;
+    line-height: 30px;
+    transition: background, color 0.1s ease-in-out;
+  }
+  
+  .btn-custom:hover {
+    background-color: #1e5ac9;
+    color: #fff;
+   
+  }
+
+  .btn{
+    background-color: orange;
+    color: black;
+    border: none;
+    
+  }
+
+  .btn:hover{
+    background-color: green;
+    color: white;
+  }
